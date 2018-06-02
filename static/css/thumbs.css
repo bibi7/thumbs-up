@@ -1,0 +1,23 @@
+.animation {
+  color: red;
+  position: absolute;
+  animation: fade linear .3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateY(0)
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+}

@@ -1,6 +1,23 @@
 # thumbs-up
-little thumbs-up animation
 
-突发奇想做一个表达赞同的animation
+## what is this?
+this is a little plugin for those who want to add some animation when they gives someone a 'like'
 
-点击浮现+1+1+1特效
+
+## load plugin
+`<link rel="stylesheet" href="./static/css/thumbs.css">`
+
+`<script src="./static/js/thumbs.js"></script>`
+
+## remind
+you can pass in some argument in this function `getThumbsUp`
+
+when the `argument` is empty, it generate the default argument for itself like this `['+1', '❤', '👍', '👌']`
+
+## does this plugin finished?
+still work in progress
+
+## other
+if you love it, `star` is a good motivation for me
+
+enjoys ;)
